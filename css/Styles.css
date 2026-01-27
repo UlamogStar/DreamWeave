@@ -34,6 +34,63 @@ body {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
+/* GLOBAL SECTION SPACING */
+section {
+    padding: 60px 10%;
+    animation: fadeUp 1.2s ease both;
+}
+
+/* SECTION HEADERS */
+h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* DEMO REEL */
+.demo-reel {
+    background: linear-gradient(180deg, #FEFFF8 0%, #F6F6C2 100%);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.demo-container {
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow:
+        inset 1px 1px 0 rgba(255,255,255,0.6),
+        inset -1px -1px 0 rgba(0,0,0,0.08),
+        0 18px 40px rgba(0,0,0,0.25);
+}
+
+.demo-container iframe {
+    width: 100%;
+    height: 540px;
+    display: block;
+    background-color: #000;
+}
+
+/* PROJECT GRID TIGHTENING */
+.project-grid {
+    gap: 30px;
+}
+
+/* OVERVIEW SPACING REFINEMENT */
+.overview-content {
+    gap: 50px;
+}
+
+.overview-text {
+    gap: 24px;
+}
+
+/* CONTACT SECTION SPACING */
+.contact {
+    padding: 80px 10%;
+}
 
 /* HEADER */
 .header {
@@ -43,7 +100,7 @@ body {
 }
 
 .logo {
-    max-width: 475px;
+    max-width: 515px;
 }
 
 /* GLOBAL SECTION SPACING + FADE */
